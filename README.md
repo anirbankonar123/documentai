@@ -8,6 +8,7 @@
 python 3.9
 
 pip install streamlit
+pip install streamlit-aggrid
 
 Setup Google Cloud Vision using the instructions at https://cloud.google.com/vision/docs/ocr
 
@@ -25,5 +26,5 @@ Also check the header.json produced based on form-fields (key value pairs) detec
 
 2. Run the UI demo 
 ```
-streamlit run app_gsc.py
+streamlit run app.py
 ```
