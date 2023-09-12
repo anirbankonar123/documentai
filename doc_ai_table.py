@@ -39,9 +39,9 @@ args = vars(ap.parse_args())
 folder = args["folder"]
 file_path = args["pdf"]
 
-project_id= 'ocr-anirbankonar123'
+project_id= 'your project name in Google Cloud console'
 location = 'us'
-processor_id = 'c808e3e8c59b5540'
+processor_id = '<your processor id>'
 mime_type = 'application/pdf'
 
 def get_table_data(
