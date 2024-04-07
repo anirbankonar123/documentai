@@ -25,5 +25,5 @@ Also check the header.json produced based on form-fields (key value pairs) detec
 
 2. Run the UI demo 
 ```
-streamlit run app_gsc.py
+streamlit run app.py
 ```
